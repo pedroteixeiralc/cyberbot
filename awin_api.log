@@ -1,0 +1,22 @@
+2025-04-21 14:45:54,036 - INFO - Iniciando processo de sincronização com API Awin
+2025-04-21 14:45:54,475 - ERROR - Erro inesperado: 'list' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\AdminUser\Desktop\Transformando Dados\Cliente Alyson\cyberbot\awin_api.py", line 185, in main
+    programs = AwinAPI.get_programs()
+  File "C:\Users\AdminUser\Desktop\Transformando Dados\Cliente Alyson\cyberbot\awin_api.py", line 32, in get_programs
+    logging.info(f"Programas obtidos com sucesso. Total: {len(data.get('data', []))}")
+                                                              ^^^^^^^^
+AttributeError: 'list' object has no attribute 'get'
+2025-04-21 14:50:35,736 - INFO - Iniciando processo de sincronização com API Awin
+2025-04-21 14:50:36,105 - INFO - Programas obtidos com sucesso (formato lista). Total: 3
+2025-04-21 14:50:36,106 - INFO - Total de programas encontrados: 3
+2025-04-21 14:50:36,106 - INFO - Processando programa: Nike BR (ID: 17652)
+2025-04-21 14:50:36,451 - ERROR - Erro ao obter ofertas para programa 17652: 404 Client Error: Not Found for url: https://api.awin.com/publishers/1814514/programmes/17652/offers
+2025-04-21 14:50:36,452 - WARNING - Nenhuma oferta encontrada para o programa Nike BR
+2025-04-21 14:50:36,452 - INFO - Processando programa: Kabum BR (ID: 17729)
+2025-04-21 14:50:36,801 - ERROR - Erro ao obter ofertas para programa 17729: 404 Client Error: Not Found for url: https://api.awin.com/publishers/1814514/programmes/17729/offers
+2025-04-21 14:50:36,801 - WARNING - Nenhuma oferta encontrada para o programa Kabum BR
+2025-04-21 14:50:36,801 - INFO - Processando programa: Aliexpress BR & LATAM (ID: 18879)
+2025-04-21 14:50:37,128 - ERROR - Erro ao obter ofertas para programa 18879: 404 Client Error: Not Found for url: https://api.awin.com/publishers/1814514/programmes/18879/offers
+2025-04-21 14:50:37,130 - WARNING - Nenhuma oferta encontrada para o programa Aliexpress BR & LATAM
+2025-04-21 14:50:37,131 - INFO - Processo concluído com sucesso!
