@@ -1,4 +1,4 @@
-# 🤖 Bot de Captura de Promoções de Afiliados
+# 🤖 Bot de Captura de Promoções de Afiliados (Em desenvolvimento)
 
 Este script em Python coleta links e dados de promoções de diferentes plataformas de afiliados, com foco em integrar campanhas de Magalu, Shopee, Awin e Mercado Livre. A ideia é consolidar promoções e depois, opcionalmente, integrá-las com Telegram, sites ou outros canais.
 
