@@ -16,13 +16,13 @@ Este script em Python coleta links e dados de promoções de diferentes platafor
   ```bash
   pip install requests
 
-   🚀 Como usar
+🚀 Como usar
 magalu_id = "cyberoffs"
 shopee_app_id = "SUA_APP_ID"
 shopee_secret = "SEU_SECRET"
 awin_token = "SEU_TOKEN_OAUTH"
 ml_id = "SEU_ID_AFILIADO"
 
-Depois execute
+🚀 Execute
 python nome_do_arquivo.py
 
